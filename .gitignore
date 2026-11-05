@@ -1,0 +1,76 @@
+# IDE and editor metadata
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Java / JVM build outputs
+.gradle/
+build/
+target/
+out/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# JavaScript tooling (if used by demos)
+node_modules/
+dist/
+coverage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases, exports, and sensitive data
+*.db
+*.sqlite
+*.sqlite3
+private-data/
+company-data/
+confidential/
+data/private/
+data/raw/
+exports/
+
+# AI model and vector-store artifacts
+models/
+checkpoints/
+vector-store/
+chroma/
+faiss/
+*.index
