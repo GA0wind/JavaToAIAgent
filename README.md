@@ -23,11 +23,14 @@
 - `templates`：可复用记录模板。
 - `sessions`：每次协作会话的记录。
 
-已建立基础框架和 16 周路线图，并整理首批基础概念、面试题与来源卡；学习掌握情况和实战实现尚未验证。
+已建立基础框架和 16 周路线图，并整理基础概念、原子知识点、面试题与来源卡；个人学习掌握情况和实战实现尚未验证。
 
 ## 基础学习入口
 
 - [八个基础主题](01-foundations/README.md)：概念解释、Java/Spring 对照、易错点和待做练习。
+- [Agent 工程 12 章课程地图](01-foundations/agent-engineering/README.md)：对照 16 周计划的学习顺序、章节任务和验收入口。
+- [原子知识点索引](01-foundations/knowledge-notes/README.md)：按主题拆分的单点笔记，覆盖模型、上下文、RAG、Agent/MCP、评测、安全、Spring AI 与常用框架。
+- [Token 与分词器学习笔记](01-foundations/llm-basics/token-and-tokenizer.md)：定义、切分原理、工程影响和常见面试题。
 - [40 道主题面试题](04-interview/question-bank/README.md)：考察点、回答要点、追问和验证要求。
 - [资料索引](02-resources/README.md)：官方文档、原始论文与牛客选题来源，记录访问日期和核验边界。
 - [当前进度](00-roadmap/progress/README.md)：区分文档产出、个人学习和项目实现状态。

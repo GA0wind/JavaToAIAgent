@@ -163,3 +163,43 @@
 - 适用范围：直接/间接提示注入与分层缓解；不是中国法律意见或完整合规结论。
 - 核验状态：已核验定义与缓解原则；尚未执行安全用例。
 - 选择原因与核心内容：将 Prompt 限制、输入输出验证、最小权限和高风险动作审核组合使用，避免声称单一提示能完全防御。
+
+## F19
+
+- 标题：LLM Course — Normalization / Pre-tokenization 与 Byte-Pair Encoding；作者/来源：Hugging Face；类型：官方课程。
+- 链接：[预处理与预分词](https://huggingface.co/learn/llm-course/chapter6/4?fw=tf)、[BPE 分词](https://huggingface.co/learn/llm-course/chapter6/5?fw=tf)。
+- 发布日期或版本：持续更新的在线课程，未显示固定发布版本。
+- 访问日期：2026-11-10。
+- 适用范围：Tokenizer 流程、常见子词方法的设计直觉和 BPE 的高频相邻符号合并；不能据此推断所有大模型都使用同一算法或词表。
+- 核验状态：已核验页面中的预处理、BPE 训练/编码概述；未运行教程代码或复现训练。
+- 选择原因与核心内容：补充视频对字符级、整词级和子词折中方案的解释；实际 Token 计数仍应使用目标模型对应的 Tokenizer。
+
+## F20
+
+- 标题：LangChain 与 LangGraph 官方概览；作者/来源：LangChain 项目；类型：官方文档。
+- 链接：[LangChain overview](https://docs.langchain.com/oss/python/langchain/overview)、[LangGraph overview](https://docs.langchain.com/oss/python/langgraph/overview)。
+- 发布日期或版本：动态文档，访问页未固定依赖版本。
+- 访问日期：2026-11-10。
+- 适用范围：理解 LangChain Agent 组合层与 LangGraph 显式状态/控制流编排的当前定位；示例以 Python 为主，不能直接当作 Java API 教程。
+- 核验状态：已核验官方概览的职责描述；未安装、未运行示例，也未作框架性能比较。
+- 选择原因与核心内容：为课程地图中的框架取舍章节提供一手定位资料；具体 API 与版本需在实践前重新查阅。
+
+## F21
+
+- 标题：AgentScope Documentation；作者/来源：AgentScope 项目；类型：官方文档。
+- 链接：[AgentScope 文档](https://doc.agentscope.io/)。
+- 发布日期或版本：动态文档，入口页可切换版本，未固定依赖版本。
+- 访问日期：2026-11-10。
+- 适用范围：了解 AgentScope 文档覆盖的 Agent、Workflow、多 Agent、MCP、状态管理、Trace 与 Evaluation 主题；不代表仓库选用该框架。
+- 核验状态：已核验官方文档入口与主题目录；未安装或运行示例。
+- 选择原因与核心内容：支持框架章节中的职责比较；具体兼容性、维护状态和许可证须在选型时再次核验。
+
+## F22
+
+- 标题：What is OpenTelemetry?；作者/来源：OpenTelemetry 项目；类型：官方概念文档。
+- 链接：[OpenTelemetry 概览](https://opentelemetry.io/docs/what-is-opentelemetry/)。
+- 发布日期或版本：持续更新文档，访问页最近修改日期显示 2026-10-21。
+- 访问日期：2026-11-10。
+- 适用范围：Telemetry、Traces、Metrics、Logs 与 Collector 的职责；不是可视化后端或存储产品说明。
+- 核验状态：已核验定位与组件职责；未为本项目接入 SDK 或 Collector。
+- 选择原因与核心内容：为 Agent 多阶段调用的跨组件追踪、指标和日志设计提供一手概念依据。

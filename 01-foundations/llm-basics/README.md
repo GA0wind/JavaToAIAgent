@@ -1,5 +1,7 @@
 # LLM 基础
 
+- [Token 与分词器：从文本到模型输入](token-and-tokenizer.md)：包含 BPE 直觉、Token 预算、计数练习与常见误解。
+
 目标：解释一次模型调用在做什么，以及它为什么可能答错。关联第 1～3 周；[面试题 LLM-01～06](../../04-interview/question-bank/llm-basics.md)。资料整理日期：2026-11-05；个人掌握与实践状态：未开始。
 
 ## 核心概念
